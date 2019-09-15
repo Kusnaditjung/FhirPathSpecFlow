@@ -11,10 +11,10 @@ using Xunit;
 namespace FhirPathSpecFlowTest
 {
 	[Binding]
-	public sealed class EvaluationStepDefinition
+	public sealed class EvaluationSteps
 	{
 		private readonly ScenarioContext context;
-		public EvaluationStepDefinition(ScenarioContext injectedContext)
+		public EvaluationSteps(ScenarioContext injectedContext)
 		{
 			context = injectedContext;
 		}

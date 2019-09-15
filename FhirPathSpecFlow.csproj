@@ -99,12 +99,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EvaluationStepDefinition.cs" />
+    <Compile Include="EvaluationSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="EvaludatioScenarios.feature" />
+    <None Include="Evaluation.feature" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
